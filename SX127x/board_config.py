@@ -49,7 +49,7 @@ class BOARD:
         DIO2 = 16  # RaspPi GPIO 18
         DIO3 = 27  # RaspPi GPIO 27
         RST = 0  # RaspPi GPIO 22
-        # LED = 13  # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
+        LED = 1  # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
         # SWITCH = 4  # RaspPi GPIO 4 connects to a switch - not necessary
 
     # The spi object is kept here
