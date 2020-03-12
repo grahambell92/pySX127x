@@ -32,14 +32,25 @@ class BOARD:
         Also, information about the RF module is kept here.
         This is the Raspberry Pi board with one LED and a Ra-02 Lora.
     """
-    # Note that the BCOM numbering for the GPIOs is used.
-    DIO0 = 4   # RaspPi GPIO 4
-    DIO1 = 17   # RaspPi GPIO 17
-    DIO2 = 18   # RaspPi GPIO 18
-    DIO3 = 27   # RaspPi GPIO 27
-    RST  = 22   # RaspPi GPIO 22
-    LED  = 13   # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
-    #SWITCH = 4  # RaspPi GPIO 4 connects to a switch - not necessary
+    if False:
+        # Note that the BCOM numbering for the GPIOs is used.
+        DIO0 = 4   # RaspPi GPIO 4
+        DIO1 = 17   # RaspPi GPIO 17
+        DIO2 = 18   # RaspPi GPIO 18
+        DIO3 = 27   # RaspPi GPIO 27
+        RST  = 22   # RaspPi GPIO 22
+        LED  = 13   # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
+        #SWITCH = 4  # RaspPi GPIO 4 connects to a switch - not necessary
+
+    if True:
+        # Note that the BCOM numbering for the GPIOs is used.
+        DIO0 = 7  # RaspPi GPIO 4
+        DIO1 = 15  # RaspPi GPIO 17
+        DIO2 = 16  # RaspPi GPIO 18
+        DIO3 = 27  # RaspPi GPIO 27
+        RST = 0  # RaspPi GPIO 22
+        # LED = 13  # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
+        # SWITCH = 4  # RaspPi GPIO 4 connects to a switch - not necessary
 
     # The spi object is kept here
     spi = None
