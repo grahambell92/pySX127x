@@ -39,8 +39,8 @@ def testLoopbackOneByte():
     loopBackOneByte(spiPort0, 0x5b)
     return
 
-testRepeatSendOneByte()
-#testLoopbackOneByte()
+# testRepeatSendOneByte()
+testLoopbackOneByte()
 
 ''' Smple output tlfong 01 2019apr07hkt2047
 Begin testLoopbackOneByte(),....
