@@ -51,7 +51,7 @@ class BOARD:
         RST = 17  # RaspPi GPIO 22
         LED = 13  # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
         # SWITCH = 4  # RaspPi GPIO 4 connects to a switch - not necessary
-
+    # Testing 123
     # The spi object is kept here
     spi = None
     SPI_BUS=0
