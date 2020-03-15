@@ -47,9 +47,9 @@ class BOARD:
         DIO0 = 4  # RaspPi GPIO 4
         DIO1 = 23  # RaspPi GPIO 17
         DIO2 = 24  # RaspPi GPIO 18
-        DIO3 = 6  # RaspPi GPIO 27
+        DIO3 = 21  # RaspPi GPIO 27
         RST = 17  # RaspPi GPIO 22
-        LED = 13  # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
+        LED = 18  # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
         # SWITCH = 4  # RaspPi GPIO 4 connects to a switch - not necessary
     # Testing 123
     # The spi object is kept here

@@ -129,5 +129,4 @@ if __name__ == '__main__':
     BOARD.setup()
     lora = LoRa(verbose=False)
     unittest.main()
-    exit(0)
     BOARD.teardown()
