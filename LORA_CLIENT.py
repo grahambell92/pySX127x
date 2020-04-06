@@ -112,8 +112,8 @@ assert(lora.get_agc_auto_on() == 1)
 
 try:
     print("START")
-    lora.start()
     print(lora.get_freq())
+    lora.start()
 except KeyboardInterrupt:
     sys.stdout.flush()
     print("Exit")
