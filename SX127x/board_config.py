@@ -33,6 +33,7 @@ class BOARD:
         This is the Raspberry Pi board with one LED and a Ra-02 Lora.
     """
     if False:
+        # Original settings for standard SPI.
         # Note that the BCOM numbering for the GPIOs is used.
         DIO0 = 4   # RaspPi GPIO 4
         DIO1 = 17   # RaspPi GPIO 17
@@ -44,13 +45,14 @@ class BOARD:
 
     if True:
         # Note that the BCOM numbering for the GPIOs is used.
+        # Updated by GB. Dragino doesn't use normal SPI pin numbering.
         DIO0 = 4  # RaspPi GPIO 4
         DIO1 = 23  # RaspPi GPIO 17
         DIO2 = 24  # RaspPi GPIO 18
         DIO3 = 21  # RaspPi GPIO 27
         RST = 17  # RaspPi GPIO 22
         LED = 18  # RaspPi GPIO 13 connects to the LED and a resistor (1kohm or 330ohm)
-        # SWITCH = 4  # RaspPi GPIO 4 connects to a switch - not necessary
+        SWITCH = 7  # RaspPi GPIO 4 connects to a switch - not necessary
     # Testing 123
     # The spi object is kept here
     spi = None

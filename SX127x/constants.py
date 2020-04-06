@@ -101,6 +101,14 @@ class PA_RAMP:
     RAMP_12_us  = 14
     RAMP_10_us  = 15
 
+# Added by GB as per https://github.com/mayeranalytics/pySX127x/issues/21#issuecomment-444596565
+@add_lookup
+class SPI_BAUD_RATE:
+    MAX_SPEED_HZ = 5000
+
+@add_lookup
+class SPI_MODE:
+    SPI_MODE = 0b01
 
 class MASK:
     class IRQ_FLAGS:
